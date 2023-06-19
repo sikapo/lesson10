@@ -1,4 +1,4 @@
-class FileData {
+public class FileData {
     private final String name;
     private final int size;
     private final String path;
@@ -13,11 +13,15 @@ class FileData {
         return name;
     }
 
-    public long getSize() {
+    public int getSize() {
         return size;
     }
-
     public String getPath() {
         return path;
+    }
+
+    @Override
+    public String toString() {
+        return name + " " + size;
     }
 }
