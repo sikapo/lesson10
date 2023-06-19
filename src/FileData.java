@@ -1,9 +1,9 @@
 class FileData {
     private final String name;
-    private final long size;
+    private final int size;
     private final String path;
 
-    public FileData(String name, long size, String path) {
+    public FileData(String name, int size, String path) {
         this.name = name;
         this.size = size;
         this.path = path;
