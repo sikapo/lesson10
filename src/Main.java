@@ -9,7 +9,7 @@ public class Main {
 
         fileNavigator.find("/path/to/file");
         fileNavigator.filterBySize(3000);
-        fileNavigator.sortBySize();
+//        fileNavigator.sortBySize();
         fileNavigator.remove("/path/to/file");
 
 
